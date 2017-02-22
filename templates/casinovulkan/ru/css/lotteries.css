@@ -1,0 +1,153 @@
+/* Блок с акциями */
+.lottories_block {
+	margin: 20px 0 0px 0;
+	padding: 0px;
+	width: 943px;
+	height: 283px;
+}
+
+/* Описание блока */
+.lottories_info {
+	padding: 12px 18px;
+	font-size: 19px;
+	color: #fff;
+	border: 0px;
+}
+
+/* Переключатель */
+.marker_link {
+	height: 12px;
+	width: 12px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	margin-right: 4px;
+}
+
+.marker_link_empty{
+	background-image: url('../images/navigation_marker_empty.png');
+}
+
+.marker_link_hover{
+	background-image: url('../images/navigation_marker_hover.png');
+}
+
+.marker_link_select{
+	background-image: url('../images/navigation_marker_selected.png');
+}
+
+/* Обертка акций */
+.wrapping_lotteries_top, .wrapping_lotteries_middle, .wrapping_lotteries_footer {
+	width: 943px;
+}
+
+.wrapping_lotteries_top {
+	background-image: url('../images/bg_wrapping_top.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 67px;
+}
+
+.wrapping_lotteries_middle {
+	background-image: url('../images/bg_wrapping_middle.png');
+	background-repeat: repeat-y;
+	height: 150px;
+}
+
+.wrapping_lotteries_footer {
+	background-image: url('../images/bg_wrapping_footer.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 45px;
+}
+
+/* Обертка акций */
+.lottories_wrapping {
+	padding: 0px 9px;
+	height: 174px;
+	cursor: default;
+}
+
+/* Блок акции */
+.lotterie_block {
+	overflow: hidden;
+	margin: 2px 6px; 
+	float: left;
+	text-align: center;
+}
+
+.lotterie_block, .lottery_border, .lottery_img{
+	width: 219px; 
+	height: 174px;
+}
+
+/* Рамка вокруг акции */
+.lottery_border {
+	background-image: url('../images/bg_image_lottery.png');
+}
+
+/* Блок содержащий рисунок акции */
+.lottery_img{
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Окно описания акции */
+.show_lottery_info{
+	overflow: hidden;
+	margin: 4px;
+	position: relative;
+	top: -174px;
+	background-image: url('../images/lottery_show_info.png');
+	width: 211px; 
+	height: 166px;
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif;
+}
+
+.p_title_lottery_info{
+	padding-top: 45px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.p_short_story_info{
+	color: rgb(171, 171, 171);
+	font-size: 11px;
+	line-height: 16px;
+	padding: 0px 8px;
+}
+
+.a_short_story_info{
+	display: block;
+	width: 134px;
+	height: 28px;
+	font-size: 11px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-align: center;
+	line-height: 28px;
+	background-image: url("../images/buttom_lottery.png");
+	margin: 5px auto;
+}
+
+.a_short_story_info:hover{
+	background-image: url("../images/buttom_lottery_hover.png");
+}
+
+.displayNone {
+	display: none;
+}
+
+/* Lotteries */
+.wrapping_list_lotteries{
+	position: relative;
+	top: -13px;
+	padding: 0 9px 0px 9px;
+	width: 917px;
+}
+
+.wrapping_list_lotteries .lotterie_block{
+	margin: 0 5px 15px 5px!important;
+}

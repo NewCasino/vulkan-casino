@@ -1,0 +1,104 @@
+h1 {
+    border-bottom: 1px solid #e5e5e5;
+    font: bold 36px Arial;
+    margin: 40px 0 20px;
+    padding: 0 0 5px;
+}
+.rates {
+    margin: 20px 0;
+}
+.advantages .items .adv-item {
+    height: auto;
+    font: 12px Arial;
+    padding-bottom: 70px;
+    position: relative;
+}
+.desrcipt {
+    border-top: 1px solid #e5e5e5;
+    margin: 0 20px;
+    padding: 20px 0 0;
+}
+.income {
+    height: 85px;
+    padding: 0 20px;
+    position: absolute;
+        bottom: 0;
+        left: 0;
+}
+.income .head {
+    font: bold 12px Arial;
+    margin-bottom: 10px;
+}
+.black {
+    background: #000;
+    color: #fff;
+    display: block;
+        width: 270px;
+        height: 39px;
+    font: 12px/39px Arial;
+    margin: 30px 0 0;
+    text-align: center;
+}
+.payments {
+    font: 12px Arial;
+    margin: 20px 0 10px;
+}
+.payments:after,
+.payments > section article:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.payments > section {
+    border: 1px solid #515151;
+    float: left;
+    margin-left: 9px;
+    width: 632px;
+}
+.payments > section:first-child {
+    margin: 0;
+}
+.payments > section header {
+    color: #fff;
+    font: 18px/35px Arial;
+    height: 35px;
+    padding: 0 30px;
+}
+.payments > section.ways header {
+    background: url(../../img/icons/rates-ways.png) no-repeat 10px center #515151;
+}
+.payments > section.period header {
+    background: url(../../img/icons/rates-period.png) no-repeat 10px center #515151;
+}
+.payments > section article {
+    padding: 10px;
+}
+.payments > section.period article {
+    padding: 30px 30px 10px;
+}
+.payments > section article .column-conform {
+    float: right;
+    padding: 20px 20px 0;
+    width: 260px;
+}
+.payments > section article .column-conform:first-child {
+    background: #f5f5f5;
+    float: left;
+}
+.payments > section article ul {
+    list-style: disc outside;
+    margin: 20px 0 0 15px;
+}
+.payments > section article p {
+    font: 12px/1.6em Arial;
+    margin: 0 0 20px;
+    padding: 0;
+}
+.notes {
+    color: #666;
+    font: 12px/1.6em Arial;
+    margin: 10px 0 40px;
+}
+.red {
+    color: #ca0000;
+}

@@ -1,0 +1,110 @@
+.programm {
+    font: 12px Arial;
+    padding: 90px 0;
+}
+.programm-container .programm:nth-child(2n+1) {
+    background: #fff;
+}
+.programm-container .programm:nth-child(2n) {
+    background: #9a269d;
+}
+.programm-container .programm:nth-child(4n) {
+    background: #00b57f;
+}
+.programm .inner {
+    margin: 0 auto;
+    width: 1277px;
+}
+.programm .inner:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.programm  .img {
+    float: right;
+    text-align: center;
+    width: 643px;
+}
+.programm-container .programm:nth-child(2n) .img {
+    float: left;
+}
+.programm .inner > section {
+    float: left;
+    width: 634px;
+}
+.programm-container .programm:nth-child(2n) .inner > section {
+    float: right;
+}
+.programm .inner > section header {
+    background: #000;
+    color: #fff;
+    font: bold 30px/67px Arial;
+    height: 67px;
+    margin-bottom: 30px;
+    padding: 0 23px;
+    text-transform: uppercase;
+}
+.programm .inner > section article {
+    color: #000;
+}
+.programm-container .programm:nth-child(2n) .inner > section article {
+    color: #fff;
+}
+.programm .inner > section article p {
+    margin: 0 0 20px;
+    padding: 0;
+}
+.programm .inner > section article .big {
+    font: bold 14px/1.5em Arial;
+    padding: 0;    
+}
+.programm .inner > section article ul {
+    list-style: dusc outside;
+    margin: 20px 0 20px 35px;
+    padding: 0;
+}
+ol.features {
+    counter-reset: item;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol.features li {
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 10px 0 0;
+}
+ol.features > li:before {
+    background: #fff;
+    counter-increment: item;  
+    content: counters(item, "") ""; 
+    color: #000;
+    display: block;
+        width: 56px;
+        height: 56px;
+    float: left;
+    font: bold 36px/56px Arial;
+    margin: -10px 20px 0 0;
+    text-align: center;
+    vertical-align: top;
+}
+#right ul > li > ol {
+    counter-reset: name 0;
+}
+.programm .inner > section footer {
+    margin: 55px 0 0;
+}
+.programm .inner > section footer .reg {
+    background: #f51b1b;
+    color: #fff;
+    display: inline-block;
+        width: 249px;
+        height: 40px;
+    font: 14px/40px Arial;
+    text-align: center;
+    text-transform: uppercase;
+}
+.programm .inner > section footer .reg:hover {
+    background: #c00101;
+    text-decoration: none;
+}

@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow: /ru/partners
+Disallow: /ru/actia
+Disallow: /ru/support
+Disallow: /ru/faq

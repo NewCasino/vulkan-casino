@@ -1,0 +1,1126 @@
+.loginPanel{
+	text-align: center;
+	background: url('../images/top/login_bg.png') no-repeat;
+	height: 73px;
+	width: 903px;
+	padding: 5px 20px;
+	margin:10px 0px;
+}
+
+.loginPanel .logoImg{
+	height: 63px;	/*+10*/
+	width: 220px;
+	border-right: 1px solid #000;
+	float: left;
+	padding-top: 10px;
+}
+
+/*Блок социального входа*/
+.wrappingSocialLogin{
+	height: 63px;	/*+10*/
+	width: 300px;
+	border-right: 1px solid #000;
+	float: left;
+	padding: 0px 10px; 
+	padding-top: 10px;
+}
+
+/*Блок входа*/
+.wrappingLogined{
+	height: 43px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.wrappingLogined a{
+	color: #fff;
+	font-size: 12px; 
+	text-transform: uppercase; 
+	text-decoration: none;
+}
+
+/*Блок регистрации*/
+.wrappingRegistration{
+	height: 61px;	/*+12*/
+	float: right;
+	padding-top: 12px;
+	text-align: right;
+}
+
+/*Кнопка регистрации*/
+.wrappingRegistration a{
+	display: block;
+	width: 194px;	/*+10*/
+	height: 33px;	/*+16*/
+	font-size: 15px; 
+	text-align: center;
+	font-family: Tahoma,sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000; 
+	text-decoration: none;
+	padding: 0px 5px;
+	padding-top: 16px;
+	text-shadow: 0px 1px 0px rgb(253, 178, 0);
+	background: url('../images/top/buttomReg.png') no-repeat;
+}
+
+.wrappingRegistration a:hover{
+	background: url('../images/top/buttomRegHover.png') no-repeat;
+}
+
+/*Вход выполнен*/
+
+/*Навигационные кнопки*/
+.navigationBlock{
+	height: 63px;	/*+10*/
+	width: 85px;
+	border-right: 1px solid #000;
+	float: left;
+	padding-top: 10px;
+}
+
+.navigationBlock a{
+	color: #fff; 
+	text-decoration: none;
+}
+
+/*Информация о пользователе*/
+.wrappingUserInfo{
+	float: right; 
+	color:#FFF;
+	font-size:14px;
+}
+
+.wrappingUserInfo p{
+	float: left;
+	height: 23px;
+	padding: 3px 5px;
+}
+
+/*Обертка логина*/
+.wrappingLogin {
+	background: url(../images/logged_name_bg.png) no-repeat;
+	color:#ffff00;
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 18px;
+	width: 130px;
+	text-align: center;
+	float: right;
+	height: 23px;
+	padding: 3px 5px;
+}
+
+/*Обертка денег*/
+.wrappingCountMoney {
+	float: left;
+	background: url(../images/count_bg.png) no-repeat;
+	width: 252px;
+	height: 21px;
+	padding: 2px 4px 0 4px;
+	text-align: left;
+}
+
+/*Кнопки блока*/
+.submitRed {
+	background: url(../images/popolnit_btn.png) no-repeat;
+	width: 89px;
+	height: 20px;
+	padding: 2px 1px 0 1px;
+}
+
+.submitGreen {
+	background: url(../images/sniat_btn.png) no-repeat;
+	width: 47px;
+	height: 20px;
+	padding: 2px 1px 0 1px;
+}
+.submitRed, .submitGreen{
+	font-size: 13px;
+	text-align: center;
+	float: right;
+	display: block;
+	color: #ffff00;
+	text-decoration: none;
+}
+
+/* Top Slider */
+.sliderBarWrapping, .sliderBarTopWrapping, .sliderBarMiddleWrapping, .sliderBarFooterWrapping{
+	width: 943px;
+}
+
+/*Обертка*/
+.sliderBarWrapping {
+	margin: 15px 0;
+}
+
+/*Шапка*/
+.sliderBarTopWrapping{
+	background: url('../images/bg_wrapping_top.png') no-repeat top;
+	height: 67px;
+}
+
+.sliderBarTopWrapping span a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.sliderBarTopWrapping span a:hover{
+	color: #DDDD0D;
+}
+
+/*Навигация в шапка слайд-бара*/
+.sliderBarTopWrapping .navigation{
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	padding: 0px 15px 0px 15px;
+}
+
+.sliderBarTopWrapping .navigation span{
+	padding: 10px 12px;
+	font-size: 15px;
+}
+
+/*Джекпот*/
+.sliderBarTopWrapping .jakpot, .wrappingTopContent .jakpot{
+	float: right; 
+	width: 242px; 
+	height: 42px;
+	background: url('../images/top/jakpotBg.png') no-repeat;
+	font-size: 16px;
+	line-height: 42px;
+	text-align: center;
+}
+
+.sliderBarTopWrapping .jakpot strong, .wrappingTopContent .jakpot strong{
+	display: block;
+	float: left;
+	margin-left: 3px;
+	width: 68px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sliderBarTopWrapping .jakpot strong a, .wrappingTopContent .jakpot strong a{
+	text-decoration: none;
+}
+
+.sliderBarTopWrapping .jakpot span, .wrappingTopContent .jakpot span{
+	display: block;
+	float: left;
+	width: 24px;
+	margin-left: 1px;
+	font-size: 26px;
+	color: #FFFFFF;
+}
+
+/*Средина слайдера-бара*/
+.sliderBarMiddleWrapping{
+	background: url('../images/bg_wrapping_middle.png') repeat-y;
+	height: 174px;
+}
+
+/*Конец слайдер-бара*/
+.sliderBarFooterWrapping{
+	background: url('../images/bg_wrapping_footer.png') no-repeat bottom;
+	padding: 0 0 5px 0;
+}
+
+/*Обертка с тенью*/
+.shadowWrapping{
+	border-top: 1px solid rgb(208, 208, 208); 
+	margin: 0px 4px; 
+	float: left;
+	background: url('../images/top/bg-shadow-slider.png') top center no-repeat;
+}
+
+/*Обертка слайдов*/
+.sladesWrapping{
+	float: left; 
+	width: 698px;
+	height: 230px; 
+	border-radius: 0 0 0 7px;
+	overflow: hidden;
+}
+
+/*Обертка слайда*/
+.sladeWrapping{
+	width: 698px;
+	height: 230px; 
+}
+
+/*Кнопка детальнее*/
+.buttomDetailsLottery{
+	display: block;
+	float: left;
+	width: 266px;
+	height: 72px;
+	line-height: 72px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Tahoma,sans-serif;
+	text-decoration: none;
+	color: #f2f2f2;
+	text-shadow: 0px 1px 0px rgb(98, 98, 98);
+	text-align: center;
+	margin: 130px 0 10px 70px;
+	background: url('../images/top/big-buttom.png') no-repeat;
+}
+
+.buttomDetailsLottery:hover{
+	background: url('../images/top/big-buttom-hover.png') no-repeat;
+}
+
+/*Блок победитлей*/
+.winnersWrapping{
+	float: left; 
+	height: 227px;
+	width: 234px; 
+	border-top: 3px solid #CD6B00; 
+	border-left: 3px solid #CD6B00;
+	box-shadow: 1px 1px 0px rgb(0, 0, 0) inset;
+}
+
+.winnersWrapping .winnersList{
+	list-style: none;
+	height: 132px;
+	overflow: hidden;
+}
+
+.winnersWrapping .winnersList li{
+	float: left;
+	background: none;
+	padding: 0px;
+	width: 234px;
+}
+
+.winnersWrapping .winnersList li .line{
+	padding: 8px 20px;
+	margin-left: 1px;
+	border-bottom: 1px solid rgb(234, 234, 234);
+	color: rgb(102, 102, 102);
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	background: none repeat scroll 0% 0% rgb(251, 251, 251);
+}
+
+.winnersWrapping .winnersList li .line div{
+	font-family: Arial,sans-serif;
+	float: left;
+}
+
+.winnersWrapping .winnersList li .line .orange{
+	color: rgb(255, 109, 0) !important;
+	font-weight: bold !important;
+}
+
+.winnersWrapping .winnersList li .line .right{
+	float: right;
+	color: #333;
+	font-weight: normal;
+}
+
+.winnersWrapping .winnersList li .odd{
+	background: #fff;
+}
+
+.winnersWrapping .winnersList li .line a{
+	color: rgb(0, 136, 213);
+	line-height:16px;
+}
+
+.winnersWrapping .winnersList li .line a:hover{
+	color: rgb(255, 109, 0);
+	text-decoration: underline;
+}
+
+/*Стиль шапки победителей*/
+.winnersHead{	
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	background: url('../images/top/vicktor-head-bg.gif') repeat-x;
+	text-align: center;
+}
+
+/*Блок победителя*/
+.blockVictory{
+	overflow: hidden;
+}
+
+.lineVictorsBorder{
+	background: url('../images/top/line-victors-border.gif');
+	height: 60px;
+	width: 3px;
+	position: relative;
+	left: -3px;
+	top: 3px;
+}
+
+/*Кнопка играть*/
+.playSubmit{
+	width: 211px;
+	height: 35px;
+	background: url('../images/top/play-buttom.png') no-repeat;
+	display: block;
+	float: right;
+	margin: 10px;
+	font-weight: bold;
+	font-family: Tahoma,sans-serif;
+	text-transform: uppercase;
+	line-height: 35px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	text-shadow: 0px 1px 0px rgb(253, 178, 0);
+}
+
+.playSubmit:hover{
+	background: url('../images/top/play-buttom-hover.png') no-repeat;
+}
+
+/*content*/
+.wrappingContent{
+	width: 943px;
+	margin: 10px 0px 15px 0px;
+}
+
+.wrappingTopContent{
+	width: 943px;
+	background: url('../images/bg_wrapping_top.png') no-repeat top;
+	height: 67px;
+}
+
+/*User Form Style*/
+.wrappingTopContent .userForm{
+	float: right; 
+	width: 242px; 
+	height: 42px;
+	background: url('../images/small-vertical-border.gif') left center no-repeat;
+	font-size: 15px;
+	line-height: 42px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.wrappingBottomContent{
+	width: 943px;
+	background: url('../images/bg_wrapping_footer.png') no-repeat bottom;
+	position: relative;
+	top: 10px;
+	padding: 0 0 0px 0;
+}
+
+.wrappingMiddleContent{
+	width: 943px;
+	background: url('../images/bg_wrapping_middle.png') repeat-y;
+}
+
+/*Навигация в постраничнике*/
+.wrappingTopContent .navigation{
+	float: left;
+	height: 38px;
+	padding: 2px 15px 0px 15px;
+}
+
+.wrappingTopContent .navigation span{
+	height: 38px;
+	line-height: 38px;
+	font-size: 15px;
+	display: block;
+	float: left;
+	padding: 0 14px;
+	margin: 0 3px;
+}
+
+
+.wrappingTopContent span a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.wrappingTopContent span a:hover{
+	color: #DDDD0D;
+}
+
+/*Выбранная страница*/
+.wrappingTopContent a.selected span{
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	height: 37px;
+	line-height: 35px;
+	margin: 0;
+}
+
+.wrappingTopContent a.selected{
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	float: left;
+	color: rgb(2, 2, 2);
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgb(255, 186, 104);
+	padding: 1px;
+	height: 35px;
+	overflow: hidden;
+	background: #ECAE50;
+	background: linear-gradient(to bottom, rgb(255, 223, 97) 0%, rgb(254, 132, 0) 50%, rgb(236, 174, 80) 100%) repeat scroll 0% 0% transparent;
+	border-radius: 5px 5px 0px 0px;
+	margin: 0px 0 0 0;
+}
+
+/*Новости*/
+.newsTitle {
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	font-size: 14px;
+	background: rgb(249, 249, 249);
+	border: 1px solid rgb(230, 157, 61);
+	height: 44px;
+	line-height: 44px;
+	padding: 0px 20px;
+}
+
+.newsTitle p.title{
+	float: left; 
+}
+
+.newsTitle p.date{
+	float: right; 
+	font-weight: normal; 
+	font-size: 12px;
+}
+
+.wrappingNew{
+	padding: 20px;
+}
+
+.wrappingNew p{
+	margin: 0px!important;
+}
+
+.wrappingNew p a.link{
+	float: right;
+	color: #444;
+}
+
+.footerNavigation{
+	background: url('../images/bg-bottom-navgiation.png') no-repeat;
+	height: 43px;
+	width: 943px;
+	margin: -34px 0 0 -4px;
+	float: left;
+	text-align: center;
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif;
+}
+
+.footerNavigation span{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 4px;
+}
+
+.footerNavigation span.selected{
+	color: rgb(255, 206, 75);
+}
+
+.footerNavigation span a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footerNavigation span a:hover{
+	color: rgb(255, 206, 75);
+}
+
+.footerNavigation span a img{
+	margin: 4px 0 0 0;
+}
+
+/*низ сайта*/
+.footerFromA{
+	border-top: 4px solid #333333; 
+	color: #c2c2c2; 
+	padding: 10px 50px; 
+	color: #999;
+	font-size: 12px; 
+	background: #000001;
+}
+
+.footerFromA .wrappingNavigation{
+	font-size: 13px; 
+	color: #fff;
+	padding: 5px 0 20px 0;
+}
+
+.copyrightCasino{
+	float: left;
+}
+
+.footerSiteNavigation{
+	float: right; 
+}
+
+.footerSiteNavigation a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0 20px 0 0px;
+}
+
+.footerSiteNavigation a:hover{
+	color: #FFCE4B;
+}
+
+.footerFromA p{
+	text-align: justufy;
+	margin: 3px 0 0 0;
+}
+
+.footerFromA p strong{
+	color: #FFBA00;
+}
+
+/**/
+.paysBlock{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	width: 903px;
+	margin: 12px auto;
+	line-height: 25px;
+}
+
+.paysBlock a{
+	text-decoration: none;
+}
+
+.paysBlock a img{
+	border: 0px;
+	height: 25px;
+}
+
+/*Страница пользователя*/
+
+/*Обертка пользовательской информации*/
+.wrappingContentTwoColumn{
+	margin-top: -2px; 
+	position: relative; 
+	top: -12px; 
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif; 
+	color: #FFFCFC;
+	margin-bottom: -7px;
+	float: left;
+}
+
+/* Левая колонка */
+.wrappingContentTwoColumn .leftColumn{
+	float: left;
+	width: 697px;	/*697*/
+}
+
+/* Правая колонка */
+.wrappingContentTwoColumn .rightColumn{
+	float: right; 
+	width: 235px; /* 235 */
+	text-align: center;
+}
+
+/*Информация*/
+.rightColumn .infoBlock{
+	padding: 15px 15px 10px 15px;
+	
+}
+
+/*Достижения*/
+.rightColumn .progressBlock{
+	padding: 20px 15px;
+	border-bottom: 1px solid #e69d3d; 
+	
+}
+
+/*Счет*/
+.rightColumn .moneyBlock{
+	padding: 20px 15px;
+	
+}
+
+.rightColumn .moneyBlock .rub{
+	color: #0088d5; font-size: 24px; padding: 2px 0px;
+}
+
+.shadowBlock{
+	background: url('../images/top/bg-shadow-slider.png') top center no-repeat;
+}
+
+.pUserBlocksTitle{
+	color: #0088d5;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.userTableBlocks {
+	margin: 0 0 0 30px;
+	width: 526px;
+	border-spacing: 0px;
+}
+
+.userTableBlocks tr .small{
+	width: 120px;
+	padding: 8px 0px;
+}
+
+/* Кнопка изменения профиля */
+.saveSubmit{
+    background: url("../images/profile-tab-bg-a3efdd2ab4e6d9fb6053510728d6ffa6.png") repeat-y scroll 0px 0px transparent;
+    border-top: 1px solid #2D6EAC;
+    border-left: 1px solid #0CF;
+    cursor: pointer;
+    display: inline-block;
+    width: 180px;
+    height: 59px;
+    font-size: 13.95px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    line-height: 59px;
+    margin: 0px 0px 0px 285px;
+    padding: 0px 4px 0px 0px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0px 1px 0px #001223;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+}
+
+.saveSubmit:hover{
+	background: url('../images/buttoms/orange1-buttom-hover.png') no-repeat;
+}
+
+/* Рамка вокруг аватарки */
+.avatarBorder{
+	overflow: hidden;
+	width: 115px;
+	height: 115px;
+	background: url('../images/avatar-border.png') no-repeat;
+	margin: 5px auto;
+	padding: 4px;
+}
+
+/* Аватарка */
+.avatarBorder .avatar{
+	height: 115px;
+	width: 115px;
+}
+
+/* Кнопка выбора аватарки */
+.selectAvatar {
+    background: url("../images/profile-tab-bg-a3efdd2ab4e6d9fb6053510728d6ffa6.png") repeat-y scroll 0px 0px transparent;
+    border-top: 1px solid #2D6EAC;
+    border-left: 1px solid #0CF;
+    cursor: pointer;
+    display: inline-block;
+    width: 180px;
+    height: 59px;
+    font-size: 13.95px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    line-height: 59px;
+    margin: 0px 0px 25px 5px;
+    padding: 0px 4px 0px 0px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0px 1px 0px #001223;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.selectAvatar:hover {
+	background: url('../images/buttoms/blue1-buttom-hover.png') no-repeat;
+}
+
+/* Кнопка загрузки фото */
+.uploadAvatar{
+    background: url("../images/profile-tab-bg-a3efdd2ab4e6d9fb6053510728d6ffa6.png") repeat-y scroll 0px 0px transparent;
+    border-top: 1px solid #2D6EAC;
+    border-left: 1px solid #0CF;
+    cursor: pointer;
+    display: inline-block;
+    width: 180px;
+    height: 59px;
+    font-size: 13.95px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    line-height: 59px;
+    margin: 0px 0px 0px 5px;
+    padding: 0px 4px 0px 0px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0px 1px 0px #001223;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+}
+
+.uploadAvatar:hover{
+	background: url('../images/buttoms/orange1-buttom-hover.png') no-repeat;
+}
+
+.statusUploadAvatar{
+	color: #E69D3D;
+	text-shadow: 0px 1px 1px #ddd;
+}
+
+/*Юзер конт.*/
+.wrappingShadowTitle{
+background-image: url("../images/glow678-4213b4d50258dbdc139bba8f2552a36d.png");
+	padding: 15px 0px 40px 0px;
+}
+
+.wrappingShadowTitle .shadowTitle{
+	text-align: center; 
+	font-size: 26px; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	padding: 30px 0 0 0;
+	background: url('../images/top/bg-shadow-slider.png') top center no-repeat;
+}
+
+.divInputStyle{
+	width:380px; 
+	padding: 4px 9px;
+	font-size: 13px;
+	color: #FFFDFD;
+	border: 2px solid #CCCCCC;
+	border-radius: 2px;
+	margin: 5px 0;
+}
+
+.countrySelect{
+	width: 400px; 
+	color: #333333;
+	padding: 4px 5px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	margin: 0 0 7px 0;
+}
+
+.countrySelect option{
+	padding: 0px 5px;
+}
+
+.bithdaySelect{
+	padding: 4px 5px;
+	color: #333333;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+}
+
+.bithdaySelect option{
+	padding: 0px 5px;
+}
+
+/*Блок выбора аватарки.*/
+#wrappingSelectAvatar{
+	width: 623px; 
+	height: 400px; 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	border-radius: 1px; 
+	margin: 0px 4px 2px 0px; 
+	padding: 0px 0px 0px 2px;
+	display: none;
+}
+
+#wrappingSelectAvatar p.header{
+	font-size: 19px; 
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+#wrappingSelectAvatar img {
+	height: 113px;
+	width: 113px;
+	margin: 2px 2px;
+	background: #fff;
+}
+
+#wrappingSelectAvatar img.blue{
+	border: 2px solid #0088D5;
+}
+
+#wrappingSelectAvatar img.orange {
+	border: 2px solid #FBAD2B;
+}
+
+/*Ошибки*/
+.errorTr td{
+	width: 526px;
+	font-size: 13px; 
+}
+
+.errorTr td span{
+	color: #CE000F;
+	padding: 2px 0px 5px 0px;
+	display: block;
+}
+
+/* IB - information block */
+
+
+.wrappingGameIB, .borderGameIB, .imgGameIB{
+width: 195px;
+height: 171px;
+}
+.imgGameIB{
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.dataGameIB{
+	padding: 39px 0px 0px;
+	position: absolute;
+	top: 100px;
+	left: 3px;
+	background-image: url('../images/game-info-bg-d84b89015f2727ec2173e9322c2a303c.png');
+	border: 1px solid #3A556C;
+	width: 195px;
+	height: 107px;
+}
+
+/* Buttom styles */
+.BS_1{
+	background: url('../images/buttoms/b1.png') no-repeat 0px 0px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	width: 192px;
+	height: 63px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 16px;
+	line-height: 63px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #FDB200;
+}
+.BS_1:hover{
+	background-position: 0px -65px;
+}
+
+.BS_2{
+	display: block;
+	width: 219px;
+	height: 55px;
+	background: url('../images/buttoms/b2.png') no-repeat 0px 0px;
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	line-height: 55px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #FDB200;
+}
+.BS_2:hover{
+	background-position: 0px -60px;
+}
+
+.BS_3{
+	display: block;
+	width: 429px;
+	height: 98px;
+	background: url('../images/buttoms/b3.png') no-repeat 0px 0px;
+}
+
+.BS_3:hover{
+	background-position: 0px -98px;
+}
+
+/* styles */
+.fLeft{
+	float: left;
+}
+
+.fRight{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.pGray_3{
+	color: #333333;
+}
+
+.pGray_6{
+	color: #666;
+}
+
+.divHr{
+	margin: 15px 0px; 
+	background: #C5C7C5;
+	height: 1px
+}
+
+/* table characteristics game */
+table.characteristicsGame{
+	margin: 0px auto;
+	width: 200px;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+
+table.characteristicsGame tr.odd{
+	background: #FBFBFB;
+}
+
+table.characteristicsGame td{
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+	text-align: left;
+	padding: 7px 10px 8px 10px;
+	width: 50%;
+}
+
+table.characteristicsGame td.name{
+	color: #333;
+}
+
+table.characteristicsGame td.value{
+	color: #0088D5;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* p PGI - Page Game Info */
+.pPGICharacteristics{
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+	margin: 18px 10px 14px 12px !important;
+	text-align: left;
+}
+
+.pPGIScreenshots{
+	font-size: 16px; 
+	font-weight: bold; 
+	color: #333; 
+	margin: 20px 0px 15px 0px !important;
+}
+
+.pPGIGameName{
+	font-size: 26px; 
+	color: #333; 
+	font-weight: bold; 
+	margin: 0 0 18px 0 !important;
+}
+
+/*  Wrapping Image Viewer [IV] Screenshots */
+.wrappingIVScreenshots{
+}
+
+.wrappingIVScreenshots .view{
+	float: left;
+	width: 495px;
+}
+
+.wrappingIVScreenshots .preview{
+	float: right;
+	width: 151px; 
+}
+
+.wrappingIVScreenshots .view, .wrappingIVScreenshots .preview{
+display: block;
+width: 670px;
+height: 430px;
+margin: 0px 0px 10px;
+}
+
+.wrappingIVScreenshots .view img{
+	width: 495px;
+	height: 369px;
+}
+
+.wrappingIVScreenshots .preview img{
+	width: 151px;
+	height: 117px;
+	margin: 0px 0px 13px 0px;
+	cursor: pointer;
+}
+
+/* PGI */
+.wrappingPGIPlay{
+	margin: 20px auto 10px auto;
+}
+
+.wrappingPGIPlay .left{
+	padding: 18px 0 0 13px !important;
+	width: 210px;
+	float: left;
+}
+
+.wrappingPGIPlay .left .title{
+	color: #333;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+	margin: 0px 0px 8px 0px !important;
+}
+
+.wrappingPGIPlay .right{
+	width: 429px;
+	float: right;
+}
+
+/* Правила PGI */
+.morePGIrules{
+	display: block; 
+	border-top: 1px solid #E69D3D; 
+	border-bottom: 1px solid #E69D3D;
+	margin: 0px 0px 15px 0px;
+	height: 50px;
+	cursor: pointer;
+	width: 935px;
+}
+
+.morePGIrules div{
+	display: block;
+	float: left;
+	margin: 7px 0px 0px 5px;
+}
+
+.morePGIrules .link{
+	margin: 14px 0px 0px 20px;
+	color: #0088D5;
+	font-size: 16px;
+	font-weight: bold;
+	height: 16px;
+}
+
+.morePGIrules .toggle{
+	width: 11px;
+	height: 6px;
+	margin: 21px 0px 0px 10px;
+	background: url('../images/buttoms/show_hide.png') no-repeat 0px 0px;
+}
+
+.morePGIrules .toggle.hide{
+	background-position: 0px -7px;
+}
+
+.wrappingPGIRules{
+	padding: 0px 15px 10px 15px;
+}

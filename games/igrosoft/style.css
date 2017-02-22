@@ -1,0 +1,28 @@
+.game-body { background:#000000 url(../images/theme_2-bg.jpg) center top no-repeat fixed; }
+
+.game-but-close{width:50px;height:22px;border:none;background-color:transparent;background-repeat:no-repeat;background-image:url(../images/cgame-close-but.png);float:right;cursor:pointer;margin-right:8px;font-family:Tahoma,Geneva,sans-serif;font-size:11px;color:#FFF;padding-top:36px;padding-left:0px;margin-bottom:10px;text-decoration:none;display:block;padding-right:4px}
+.game-but-kassa{width:50px;height:22px;border:none;background-color:transparent;background-repeat:no-repeat;background-image:url(../images/game-kassa-but.png);float:right;cursor:pointer;margin-right:8px;font-family:Tahoma,Geneva,sans-serif;font-size:11px;color:#FFF;padding-top:36px;text-align:center;margin-bottom:10px;text-decoration:none;display:block;padding-right:4px}
+.game-but-rules{width:50px;height:22px;border:none;background-color:transparent;background-repeat:no-repeat;background-image:url(../images/game-rules-but.png);float:right;cursor:pointer;margin-right:8px;font-family:Tahoma,Geneva,sans-serif;font-size:11px;color:#FFF;padding-left:0px;padding-top:36px;margin-bottom:10px;text-decoration:none;display:block;padding-right:4px}
+.game-but-help{width:50px;height:22px;border:none;background-color:transparent;background-repeat:no-repeat;background-image:url(../images/games-help-but.png);float:right;cursor:pointer;margin-right:8px;font-family:Tahoma,Geneva,sans-serif;font-size:11px;color:#FFF;text-align:center;padding-top:36px;margin-bottom:10px;text-decoration:none;display:block;padding-right:4px}
+
+.game-bl-main{margin-left:auto;margin-right:auto;margin-top:40px}
+.buttons-div{width:54px;display:inline-block;vertical-align:top;margin-left:4px;margin-top:15px}
+.game-bl{min-height:430px;min-width:570px;border:#3c5158 solid 5px;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;background-color:black}
+
+.buts-tab tr td a:hover{background-position:bottom}@media screen and (max-width: 800px)
+{.game-bl{width:570px;height:430px}}@media screen and (min-width: 800px) and (min-height: 500px)
+{.game-bl{width:600px;height:450px}}@media screen and (min-width: 900px) and (min-height: 550px)
+{.game-bl{width:700px;height:525px}}@media screen and (min-width: 1000px) and (min-height: 600px)
+{.game-bl{width:800px;height:600px}}@media screen and (min-width: 1100px) and (min-height: 700px)
+{.game-bl{width:900px;height:675px}}@media screen and (min-width: 1200px) and (min-height: 800px)
+{.game-bl{width:1000px;height:750px}}@media screen and (min-width: 1300px) and (min-height: 900px)
+{.game-bl{width:1100px;height:825px}}@media screen and (min-width: 1400px) and (min-height: 1000px)
+{.game-bl{width:1200px;height:900px}}@media screen and (min-width: 1500px) and (min-height: 1100px)
+{.game-bl{width:1300px;height:975px}}@media screen and (min-width: 1600px) and (min-height: 1200px)
+{.game-bl{width:1400px;height:1050px}}@media screen and (min-width: 1700px) and (min-height: 1300px)
+{.game-bl{width:1500px;height:1125px}}@media screen and (min-width: 1800px) and (min-height: 1400px)
+{.game-bl{width:1600px;height:1200px}}@media screen and (min-width: 1900px) and (min-height: 1500px)
+{.game-bl{width:1700px;height:1275px}}@media screen and (min-width: 2000px) and (min-height: 1600px)
+{.game-bl{width:1800px;height:1350px}}@media screen and (min-width: 2100px) and (min-height: 1700px)
+{.game-bl{width:1900px;height:1425px}}@media screen and (min-width: 2200px) and (min-height: 1800px)
+{.game-bl{width:2000px;height:1500px}}*{outline-width:0}

@@ -1,0 +1,27 @@
+# php_flag register_globals off
+RewriteEngine On
+AddDefaultCharset windows-1251
+AddCharset windows-1251 *
+
+#Выключить отображение всех ошибок
+# php_flag display_errors off
+# php_value error_reporting 0
+
+#Если установлен язык
+RewriteRule ^([a-z]{2})/(/?)+$ ?lang=$1 [L]
+RewriteRule ^([a-z]{2})/(.*)/(.*)(/?)+$ ?lang=$1&ppage=$2&mode=$3 [L]
+RewriteRule ^([a-z]{2})/(.*)(/?)+$ ?lang=$1&ppage=$2 [L]
+
+RewriteRule ^news/(.*)(/?)+$ ?news=$1&ppage=news&lang=ru [L]
+RewriteRule ^new/(.*)(/?)+$ ?new=$1&ppage=new&lang=ru [L]
+RewriteRule ^([a-z]{2})/messages/(.*)/(.*)(/?)+$ ?lang=$1&ppage=messages&id=$3&action=$2 [L]
+RewriteRule ^bonus$ /ru/bonus [L]
+RewriteRule ^user$  /ru/games [L]
+RewriteRule ^lobby/$  /ru/games [L]
+#Временное решение
+RewriteRule ^lotteries/(.*)(/?)+$ ?lotteries=$1&ppage=lotteries&lang=ru [L]
+RewriteRule ^lottery/(.*)(/?)+$ ?lottery=$1&ppage=lottery&lang=ru [L]
+
+#Информация по играм.
+RewriteRule ^game_info/([a-zA-Z0-9_]+).html$ ?ppage=game_info&link_info=$1&lang=ru [QSA,L]
+RewriteRule ^index.html$  / [L]

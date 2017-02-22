@@ -1,0 +1,135 @@
+.w1277 {
+    margin: 0 auto;
+}
+.project-container {
+    padding: 70px 0;
+    position: relative;
+    min-width: 403px !important;
+}
+.project-container:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.projects-list .project-container:nth-child(2n) {
+    background: #009cd6;
+}
+.project-container .caroufredsel_wrapper,
+.project-container .project-carousel {
+    margin: 0 auto !important;
+    width: 1150px !important;
+}
+.project-container .caroufredsel_wrapper .w1277 {
+    height: auto !important;
+}
+.project-container .prev,
+.project-container .next {
+    cursor: pointer;
+    display: block;
+        width: 40px;
+        height: 40px;
+    margin: -20px 0 0;
+    opacity: 0,5;
+    position: absolute;
+        top: 50%;
+    text-indent: -9999px;
+}
+.project-container .prev {
+    background: #222 url(../../img/arrows.png);
+    left: 20px;
+}
+.project-container .next {
+    background: #222 url(../../img/arrows.png) 0 -40px;
+    right: 20px;
+}
+.project-container .prev:hover,
+.project-container .next:hover {
+    opacity: 0.5;
+}
+.project-img {
+    float: right;
+    margin-left: 113px;
+}
+.project {
+    color: #000;
+    overflow: hidden;
+}
+.projects-list .project-container:nth-child(2n) .project {
+    color: #fff;
+}
+.project > header {
+    border-bottom: 1px solid #999;
+    color: #000;
+    font: bold 36px Arial;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+.projects-list .project-container:nth-child(2n) .project > header {
+    border-bottom: 1px solid #66c4e6;
+    color: #fff;
+}
+.advantages {
+    background: #fff;
+    border: 1px solid #181818;
+    color: #000;
+    margin: 20px 0 0;
+}
+.advantages header {
+    background: #181818;
+    color: #fff;
+    font: bold 14px/35px Arial;
+    height: 35px;
+    padding: 0 22px;
+    text-transform: uppercase;
+}
+.advantages article {
+    padding: 15px 20px;
+}
+.advantages article ul {
+    list-style: disc inside;
+    margin: 0;
+    padding: 0;
+}
+.article-left:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.article-left .table-ins {
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    float: left;
+    margin: 0 25px 0 0;
+    padding: 15px;
+    width: 380px;
+}
+.article-left .table-ins table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.article-left .table-ins table td {
+    border-bottom: 1px solid #ccc;
+    font: 12px Arial;
+    padding: 5px 10px;
+    width: 50%;
+}
+.article-left .table-ins table td:first-child {
+    border-right: 1px solid #ccc;
+    font: bold 12px Arial;
+    padding: 5px 10px 5px 0;
+}
+.article-left .more-info {
+    overflow: hidden;
+}
+.article-left .more-info .item {
+    border-top: 1px solid #ccc;
+    padding: 13px 0;
+}
+.article-left .more-info .item:first-child {
+    border: none;
+}
+.article-left .more-info .title {
+    font: bold 12px Arial;
+    padding: 0 0 10px;
+}
